@@ -24,16 +24,21 @@
 
 ## Description
 
-[Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
+Backend en Nest.js, frontend en Vue 3 con tailwind. Creacion y autenticacion de usuarios, implementacion de rutas protegidas y seguridad.
+Vista de dashboard protegida
 
 ## Installation
-
+Backend:
+```bash
+$ npm install
+```
+Frontend: cd /frontend
 ```bash
 $ npm install
 ```
 
 ## Running the app
-
+Backend:
 ```bash
 # development
 $ npm run start
@@ -43,6 +48,18 @@ $ npm run start:dev
 
 # production mode
 $ npm run start:prod
+```
+
+Frontend: cd /frontend
+```bash
+# development
+$ npm run server
+
+# watch mode
+$ npm run dev
+
+# production mode
+$ npm run build
 ```
 
 ## Test
